@@ -1,0 +1,46 @@
+[
+	{
+		"letter": "P",
+		"frequency": 0.01929
+	},
+	{
+		"letter": "Q",
+		"frequency": 0.00095
+	},
+	{
+		"letter": "R",
+		"frequency": 0.05987
+	},
+	{
+		"letter": "S",
+		"frequency": 0.06327
+	},
+	{
+		"letter": "T",
+		"frequency": 0.09056
+	},
+	{
+		"letter": "U",
+		"frequency": 0.02758
+	},
+	{
+		"letter": "V",
+		"frequency": 0.00978
+	},
+	{
+		"letter": "W",
+		"frequency": 0.0236
+	},
+	{
+		"letter": "X",
+		"frequency": 0.0015
+	},
+	{
+		"letter": "Y",
+		"frequency": 0.01974
+	},
+	{
+		"letter": "Z",
+		"frequency": 0.00074
+	}
+]

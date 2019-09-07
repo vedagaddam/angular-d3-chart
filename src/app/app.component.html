@@ -1,0 +1,37 @@
+<div>
+    D3.js is a JavaScript library for manipulating documents based on data. D3 helps you 
+    bring data to life using HTML, SVG, and CSS. D3’s emphasis on web standards gives you 
+    the full capabilities of modern browsers without tying yourself to a proprietary framework, 
+    combining powerful visualization components and a data-driven approach to DOM manipulation.
+</div>
+<h1>Bar Chart</h1>
+<div class="row" style="width:500px">
+  <div class="col-sm-12">
+    <ul class="tab" style="list-style-type: none;overflow: hidden">
+      <li class="tab-header"
+      (click)="this.setSelectedTab(1)">
+        Chart1
+      </li>
+      <li class="tab-header"  
+      (click)="this.setSelectedTab(2)">
+          Chart2
+      </li>
+    </ul>
+  </div>
+</div>
+<div *ngIf="this.selectedTab === 1">
+      <app-bar-chart [data]="dataChartOne | async"></app-bar-chart>
+</div>
+<div *ngIf="this.selectedTab === 2">
+      <app-bar-chart [data]="dataChartTwo | async"></app-bar-chart>
+</div>
+
+<div>
+    One of the best things that I like about D3 is the ridiculous amount of awesome 
+    demos available online and last night I have stumbled on an excel sheet with 1,134 
+    examples of data visualizations with D3. If you are just starting out with D3 you 
+    will appreciate the well organized API docs and really great tutorials and cheat sheets 
+    but there is nothing like seeing a demo with code. There are many D3 examples online but
+     I have not seen such a big list published anywhere so I am dropping it below, with 
+     thumbnail images of each D3 demo on link mouseover.
+</div>
